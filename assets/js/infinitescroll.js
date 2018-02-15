@@ -1,4 +1,4 @@
-// Code snippet inspired by https://github.com/douglasrodrigues5/ghost-blog-infinite-scroll
+// Code snippet inspired by //github.com/douglasrodrigues5/ghost-blog-infinite-scroll
 $(function ($) {
     var currentPage = 1;
     var pathname = window.location.pathname;

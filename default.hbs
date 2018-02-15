@@ -37,7 +37,7 @@
                     <a href="{{@blog.url}}">Latest Posts</a>
                     {{#if @blog.facebook}}<a href="{{facebook_url @blog.facebook}}" target="_blank" rel="noopener">Facebook</a>{{/if}}
                     {{#if @blog.twitter}}<a href="{{twitter_url @blog.twitter}}" target="_blank" rel="noopener">Twitter</a>{{/if}}
-                    <a href="https://ghost.org" target="_blank" rel="noopener">Ghost</a>
+                    <a href="//vipchiropractic.care" target="_blank" rel="noopener">VIP Chiropractic Care</a>
                 </nav>
             </div>
         </footer>
@@ -46,7 +46,7 @@
 
     {{!-- jQuery + Fitvids, which makes all video embeds responsive --}}
     <script
-        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        src="//code.jquery.com/jquery-3.2.1.min.js"
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous">
     </script>
@@ -60,7 +60,7 @@
     <script src="{{asset "js/infinitescroll.js"}}"></script>
     {{/if}}
 
-    <script type="text/javascript" src="https://auth.ghost.org/signin-button.js"></script>
+    {{!-- <script type="text/javascript" src="//auth.vipchiropractic.care/signin-button.js"></script> --}}
 
     {{!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. --}}
     {{{block "scripts"}}}
